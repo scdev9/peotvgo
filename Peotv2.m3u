@@ -14,7 +14,7 @@ https://edge1-moblive.yuppcdn.net/transsd/smil:rupavahini.smil/playlist.m3u8
 #EXTINF:6,ITN (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:itn.smil/playlist.m3u8
-#EXTINF:6,Chanel Eye (360p)
+#EXTINF:6,Nethra TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transsd/smil:channeleye.smil/playlist.m3u8
 #EXTINF:6,Ada Derana24 (360p)
@@ -46,14 +46,14 @@ https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
 https://edge3-moblive.yuppcdn.net/drm/smil:eventtvplusdrm.smil/playlist.m3u8
 #EXTINF:32,Charana TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://sltlivetestgcp.yuppcdn.net/120623/smil:charana.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/transhd/smil:charana.smil/playlist.m3u8
 #EXTINF:6,Vasantham TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:vasanthamtv.smil/playlist.m3u8
 #EXTINF:6,Shakthi TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:shakthitv.smil/playlist.m3u8
-#EXTINF:0,Nethra TV (360p)
+#EXTINF:0,Channel Eye (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:nethra.smil/playlist.m3u8
 #EXTINF:6,Knowladge TV (360p)
@@ -62,9 +62,6 @@ https://moblive.yuppcdn.net/transsd/smil:knowledgetv.smil/playlist.m3u8
 #EXTINF:6,Hiru TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:hirutv.smil/playlist.m3u8
-#EXTINF:1800,Sirasa TV (360p)
-#EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transhd/smil:startamil.smil/playlist.m3u8
 #EXTINF:0,Star Sports 1 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/drm1/smil:starsports1drm.smil/playlist.m3u8
@@ -73,16 +70,16 @@ https://edge3-moblive.yuppcdn.net/drm1/smil:starsports1drm.smil/playlist.m3u8
 https://edge3-moblive.yuppcdn.net/trans1sd/smil:startamil.smil/playlist.m3u8
 #EXTINF:0,Times Now TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm/smil:timesnowdrm.smil/playlist.m3u8
+https://edge1-moblive.yuppcdn.net/drm/smil:timesnowdrm.smil/manifest.mpd
 #EXTINF:0,France 24 TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm/smil:france24drm.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/drm/smil:france24drm.smil/manifest.mpd
 #EXTINF:0,&Flix TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/manifest.m3u8
 #EXTINF:0,Planet Fun TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm/smil:planetfundrm.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/drm/smil:planetfundrm.smil/manifest.mpd
 #EXTINF:6,Verbum TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/trans1sd/smil:verbumtv.smil/playlist.m3u8
@@ -91,19 +88,25 @@ https://edge3-moblive.yuppcdn.net/trans1sd/smil:verbumtv.smil/playlist.m3u8
 https://edge3-moblive.yuppcdn.net/transsd/smil:jayamagatv.smil/playlist.m3u8
 #EXTINF:0,Kalaignar TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge4-moblive.yuppcdn.net/drm1/smil:kalaignartvdrm.smil/playlist.m3u8
+https://edge1-moblive.yuppcdn.net/drm1/smil:kalaignartvdrm.smil/manifest.mpd
 #EXTINF:0,Isaiaruvi TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm1/smil:isaiaruvitvdrm.smil/playlist.m3u8
+https://edge1-moblive.yuppcdn.net/drm1/smil:isaiaruvitvdrm.smil/manifest.mpd
 #EXTINF:0,Parliment TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:parliamentchannel.smil/playlist.m3u8
 #EXTINF:0,Sanda TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/trans1sd/smil:sandatv.smil/playlist.m3u8
+https://edge1-moblive.yuppcdn.net/trans1sd/smil:sandatv.smil/playlist.m3u8
 #EXTINF:0,Sirippoli TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm1/smil:sirippolitvdrm.smil/playlist.m3u8
-#EXTINF:1800,Sirasa TV (360p)
+https://edge4-moblive.yuppcdn.net/drm1/smil:sirippolitvdrm.smil/manifest.mpd
+#EXTINF:6,Sony Sports 1 (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:sirasatv.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports1drm.smil/manifest.mpd
+#EXTINF:6,Sony Sports 2 (360p)
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports2drm.smil/manifest.mpd
+#EXTINF:6,Sony Sports 5 (360p)
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports5drm.smil/manifest.mpd
