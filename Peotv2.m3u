@@ -2,7 +2,7 @@
 #EXTINF:6 tvg-logo="https://shamikalivetv.files.wordpress.com/2023/05/ucihva-1.png",Sirasa TV (360p)
 #EXTVLCOPT:network-caching=1000
 http://edge2-moblive.yuppcdn.net/transsd/smil:sirtv09.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Swarnawahini (360p)
+#EXTINF:6 tvg-logo="https://github.com/scdev9/peotvgo/blob/main/Images/Swarnavahini.png",Swarnawahini (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge2-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="",Derana TV (360p)
