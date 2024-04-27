@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:6,Sirasa TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:sirasatv.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:sirtv.smil/playlist.m3u8
 #EXTINF:6,Swarnawahini (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge4-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
 #EXTINF:6,Derana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:deranatv.smil/playlist.m3u8
