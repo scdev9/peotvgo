@@ -2,55 +2,55 @@
 #EXTINF:6 tvg-logo="https://shamikalivetv.files.wordpress.com/2023/05/ucihva-1.png",Sirasa TV (360p)
 #EXTVLCOPT:network-caching=1000
 http://edge2-moblive.yuppcdn.net/transsd/smil:sirtv09.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="https://github.com/scdev9/peotvgo/blob/main/Images/Swarnavahini.png",Swarnawahini (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Swarnavahini.png",Swarnawahini (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge2-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Derana TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/derana.png",Derana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:deranatv.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Rupavahini (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/rupavahini.png",Rupavahini (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/transsd/smil:rupavahini.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",ITN (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Itn.png",ITN (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:itn.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Nethra TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Nethra_TV.png",Nethra TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transsd/smil:channeleye.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Ada Derana24 (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/ada-derana-24.png",Ada Derana24 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:adaderana24.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Siyatha TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Siyatha_TV.png",Siyatha TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:siyathatv.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",TV 1 (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/TV1.png",TV 1 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/trans1sd/smil:tv1.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Ten Cricket (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/.png",Ten Cricket (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:tencricket.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",The Buddhist (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/the-buddhist.png",The Buddhist (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:buddhisttv.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Shraddha TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Shardha_TV.png",Shraddha TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:shraddhatv.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",TNL (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/tnl-tnl.png",TNL (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:tnl.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Eurosports (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/EuroSports.png",Eurosports (360p)
 #EXTVLCOPT:network-caching=1000
 https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
-#EXTINF:0 tvg-logo="",Event Tv Plus (360p)
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/event-tv-plus.png",Event Tv Plus (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/drm/smil:eventtvplusdrm.smil/playlist.m3u8
-#EXTINF:32 tvg-logo="",Charana TV (360p)
+#EXTINF:32 tvg-logo="https://scdev9.github.io/peotvgo/Images/Charana_TV.png",Charana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:charana.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Vasantham TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Vasantham.png",Vasantham TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:vasanthamtv.smil/playlist.m3u8
-#EXTINF:6 tvg-logo="",Shakthi TV (360p)
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Shakthi_TV.png",Shakthi TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:shakthitv.smil/playlist.m3u8
 #EXTINF:0,Channel Eye (360p)
