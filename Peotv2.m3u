@@ -1,56 +1,56 @@
 #EXTM3U
-#EXTINF:6,Sirasa TV (360p)
+#EXTINF:6 tvg-logo="https://shamikalivetv.files.wordpress.com/2023/05/ucihva-1.png",Sirasa TV (360p)
 #EXTVLCOPT:network-caching=1000
 http://edge2-moblive.yuppcdn.net/transsd/smil:sirtv09.smil/playlist.m3u8
-#EXTINF:6,Swarnawahini (360p)
+#EXTINF:6 tvg-logo="",Swarnawahini (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge2-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
-#EXTINF:6,Derana TV (360p)
+#EXTINF:6 tvg-logo="",Derana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:deranatv.smil/playlist.m3u8
-#EXTINF:6,Rupavahini (360p)
+#EXTINF:6 tvg-logo="",Rupavahini (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/transsd/smil:rupavahini.smil/playlist.m3u8
-#EXTINF:6,ITN (360p)
+#EXTINF:6 tvg-logo="",ITN (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:itn.smil/playlist.m3u8
-#EXTINF:6,Nethra TV (360p)
+#EXTINF:6 tvg-logo="",Nethra TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transsd/smil:channeleye.smil/playlist.m3u8
-#EXTINF:6,Ada Derana24 (360p)
+#EXTINF:6 tvg-logo="",Ada Derana24 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:adaderana24.smil/playlist.m3u8
-#EXTINF:6,Siyatha TV (360p)
+#EXTINF:6 tvg-logo="",Siyatha TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:siyathatv.smil/playlist.m3u8
-#EXTINF:6,TV 1 (360p)
+#EXTINF:6 tvg-logo="",TV 1 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/trans1sd/smil:tv1.smil/playlist.m3u8
-#EXTINF:6,Ten Cricket (360p)
+#EXTINF:6 tvg-logo="",Ten Cricket (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:tencricket.smil/playlist.m3u8
-#EXTINF:6,The Buddhist (360p)
+#EXTINF:6 tvg-logo="",The Buddhist (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:buddhisttv.smil/playlist.m3u8
-#EXTINF:6,Shraddha TV (360p)
+#EXTINF:6 tvg-logo="",Shraddha TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:shraddhatv.smil/playlist.m3u8
-#EXTINF:6,TNL (360p)
+#EXTINF:6 tvg-logo="",TNL (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:tnl.smil/playlist.m3u8
-#EXTINF:6,Eurosports (360p)
+#EXTINF:6 tvg-logo="",Eurosports (360p)
 #EXTVLCOPT:network-caching=1000
 https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
-#EXTINF:0,Event Tv Plus (360p)
+#EXTINF:0 tvg-logo="",Event Tv Plus (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/drm/smil:eventtvplusdrm.smil/playlist.m3u8
-#EXTINF:32,Charana TV (360p)
+#EXTINF:32 tvg-logo="",Charana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:charana.smil/playlist.m3u8
-#EXTINF:6,Vasantham TV (360p)
+#EXTINF:6 tvg-logo="",Vasantham TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:vasanthamtv.smil/playlist.m3u8
-#EXTINF:6,Shakthi TV (360p)
+#EXTINF:6 tvg-logo="",Shakthi TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transsd/smil:shakthitv.smil/playlist.m3u8
 #EXTINF:0,Channel Eye (360p)
