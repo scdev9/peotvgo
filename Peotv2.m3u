@@ -4,25 +4,25 @@
 http://edge2-moblive.yuppcdn.net/transsd/smil:sirtv09.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Swarnavahini.png",Swarnawahini (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge2-moblive.yuppcdn.net/transsd/smil:swarnawahini.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:swani06.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/derana.png",Derana TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge4-moblive.yuppcdn.net/transhd/smil:deranatv.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transhd2/smil:detv04.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/rupavahini.png",Rupavahini (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge1-moblive.yuppcdn.net/transsd/smil:rupavahini.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:runi01.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Itn.png",ITN (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:itn.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:itn43.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Nethra_TV.png",Nethra TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge4-moblive.yuppcdn.net/transsd/smil:channeleye.smil/playlist.m3u8
+https://edge2-moblive.yuppcdn.net/transsd/smil:chii02.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/ada-derana-24.png",Ada Derana24 (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:adaderana24.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/transsd/smil:addetv13.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Siyatha_TV.png",Siyatha TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transhd/smil:siyathatv.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/transhd/smil:siytv08.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/TV1.png",TV 1 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/trans1sd/smil:tv1.smil/playlist.m3u8
