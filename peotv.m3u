@@ -1,0 +1,112 @@
+#EXTM3U
+#EXTINF:6 tvg-logo="https://shamikalivetv.files.wordpress.com/2023/05/ucihva-1.png",Sirasa TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/010/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Swarnavahini.png",Swarnawahini
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/006/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/derana.png",Derana TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/004/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/rupavahini.png",Rupavahini 
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/001/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Itn.png",ITN
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/003/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Nethra_TV.png",Nethra TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/002/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/ada-derana-24.png",Ada Derana24
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transsd/smil:addetv13.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Siyatha_TV.png",Siyatha TV
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transhd/smil:siytv08.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/TV1.png",TV 1
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/012/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/.png",Ten Cricket
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transhd/smil:tencricket.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/the-buddhist.png",The Buddhist
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transhd/smil:buddhisttv.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Shardha_TV.png",Shraddha TV
+#EXTVLCOPT:network-caching=1000
+https://edge1-moblive.yuppcdn.net/trans1sd/smil:shraddhatv.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/tnl-tnl.png",TNL
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transsd/smil:tnl12.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/EuroSports.png",Eurosports
+#EXTVLCOPT:network-caching=1000
+https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/event-tv-plus.png",Event Tv Plus
+#EXTVLCOPT:network-caching=1000
+https://edge4-moblive.yuppcdn.net/transsd/smil:eventtv.smil/playlist.m3u8
+#EXTINF:32 tvg-logo="https://scdev9.github.io/peotvgo/Images/Charana_TV.png",Charana TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/005/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Vasantham_TV.png",Vasantham TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/007/output/index.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Shakthi_TV.png",Shakthi TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/011/output/index.m3u8
+#EXTINF:0  tvg-logo="https://scdev9.github.io/peotvgo/Images/Eye_channel.png",Channel Eye
+#EXTVLCOPT:network-caching=1000
+https://edge4-moblive.yuppcdn.net/trans1sd/smil:nettv15.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/knowledge-tv.png",Knowladge TV
+#EXTVLCOPT:network-caching=1000
+https://moblive.yuppcdn.net/transsd/smil:knowledgetv.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/hiru-tv.png",Hiru TV
+#EXTVLCOPT:network-caching=1000
+https://edge4-moblive.yuppcdn.net/transhd2/smil:hitv17.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/star-sports-1.png",Star Sports 1
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:starsports1drm.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/star_Tamil.png",Star Tamil TV
+#EXTVLCOPT:network-caching=1000
+https://live.peotv.com/bpk-tv/008/output/index.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/Times_Now_TV.png",Times Now TV 
+#EXTVLCOPT:network-caching=1000
+https://edge1-moblive.yuppcdn.net/drm/smil:timesnowdrm.smil/manifest.mpd
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/france-france-24.png",France 24 TV
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm/smil:france24drm.smil/manifest.mpd
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/nflix-nflix.png",&Flix TV
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/manifest.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/planet-fun.png",Planet Fun TV 
+#EXTVLCOPT:network-caching=1000
+https://edge4-moblive.yuppcdn.net/drm/smil:planetfundrm.smil/manifest.mpd
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/verbum-tv.png",Verbum TV 
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/trans1sd/smil:verbumtv.smil/playlist.m3u8
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/JayaMaga_TV.png",Jaya Maga TV 
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transsd/smil:jayamagatv.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/kalaignar-tv.png",Kalaignar TV 
+#EXTVLCOPT:network-caching=1000
+https://edge1-moblive.yuppcdn.net/drm1/smil:kalaignartvdrm.smil/manifest.mpd
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/isaiaruvi-tv.png",Isaiaruvi TV 
+#EXTVLCOPT:network-caching=1000
+https://edge1-moblive.yuppcdn.net/drm1/smil:isaiaruvitvdrm.smil/manifest.mpd
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/parliament-channel.png",Parliment TV
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/transsd/smil:parliamentchannel.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/Sanda_TV.png",Sanda TV
+#EXTVLCOPT:network-caching=1000
+https://edge1-moblive.yuppcdn.net/trans1sd/smil:sandatv.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/sirippoli-tv.png",Sirippoli TV
+#EXTVLCOPT:network-caching=1000
+https://edge4-moblive.yuppcdn.net/drm1/smil:sirippolitvdrm.smil/manifest.mpd
+#EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/TV.png",Sony Sports 1
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports1drm.smil/manifest.mpd
+#EXTINF:6 tvg-logo="",Sony Sports 2 (360p)
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports2drm.smil/manifest.mpd
+#EXTINF:6 tvg-logo="",Sony Sports 5 (360p)
+#EXTVLCOPT:network-caching=1000
+https://edge3-moblive.yuppcdn.net/drm1/smil:tensports5drm.smil/manifest.mpd
