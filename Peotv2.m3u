@@ -25,7 +25,7 @@ https://edge3-moblive.yuppcdn.net/transsd/smil:addetv13.smil/playlist.m3u8
 https://edge3-moblive.yuppcdn.net/transhd/smil:siytv08.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/TV1.png",TV 1 (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/trans1sd/smil:tv1.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/trans1sd/smil:tv111.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/.png",Ten Cricket (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/transhd/smil:tencricket.smil/playlist.m3u8
@@ -37,7 +37,7 @@ https://edge3-moblive.yuppcdn.net/transhd/smil:buddhisttv.smil/playlist.m3u8
 https://edge1-moblive.yuppcdn.net/trans1sd/smil:shraddhatv.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/tnl-tnl.png",TNL (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:tnl.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/transsd/smil:tnl12.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/EuroSports.png",Eurosports (360p)
 #EXTVLCOPT:network-caching=1000
 https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
@@ -46,22 +46,22 @@ https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
 https://edge4-moblive.yuppcdn.net/transsd/smil:eventtv.smil/playlist.m3u8
 #EXTINF:32 tvg-logo="https://scdev9.github.io/peotvgo/Images/Charana_TV.png",Charana TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge4-moblive.yuppcdn.net/transhd/smil:charana.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/transhd2/smil:chtv05.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Vasantham_TV.png",Vasantham TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge1-moblive.yuppcdn.net/trans1sd/smil:vasanthamtv.smil/playlist.m3u8
+https://edge3-moblive.yuppcdn.net/trans1sd/smil:vatv07.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/Shakthi_TV.png",Shakthi TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transsd/smil:shakthitv.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/transsd/smil:saktv10.smil/playlist.m3u8
 #EXTINF:0  tvg-logo="https://scdev9.github.io/peotvgo/Images/Eye_channel.png",Channel Eye (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge1-moblive.yuppcdn.net/trans1sd/smil:nethra.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/trans1sd/smil:nettv15.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/knowledge-tv.png",Knowladge TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://moblive.yuppcdn.net/transsd/smil:knowledgetv.smil/playlist.m3u8
 #EXTINF:6 tvg-logo="https://scdev9.github.io/peotvgo/Images/hiru-tv.png",Hiru TV (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/transhd/smil:hirutv.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/transhd2/smil:hitv17.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/star-sports-1.png",Star Sports 1 (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge3-moblive.yuppcdn.net/drm1/smil:starsports1drm.smil/playlist.m3u8
