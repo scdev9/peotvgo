@@ -43,7 +43,7 @@ https://edge3-moblive.yuppcdn.net/transsd/smil:tnl.smil/playlist.m3u8
 https://moblive.yuppcdn.net/transhd/smil:eurosport.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://scdev9.github.io/peotvgo/Images/event-tv-plus.png",Event Tv Plus (360p)
 #EXTVLCOPT:network-caching=1000
-https://edge3-moblive.yuppcdn.net/drm/smil:eventtvplusdrm.smil/playlist.m3u8
+https://edge4-moblive.yuppcdn.net/transsd/smil:eventtv.smil/playlist.m3u8
 #EXTINF:32 tvg-logo="https://scdev9.github.io/peotvgo/Images/Charana_TV.png",Charana TV (360p)
 #EXTVLCOPT:network-caching=1000
 https://edge4-moblive.yuppcdn.net/transhd/smil:charana.smil/playlist.m3u8
