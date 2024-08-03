@@ -1,33 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Widevine Protected MPD Stream with JW Player</title>
-  <script src="https://cdn.jwplayer.com/libraries/1uritdb6.js"></script>
-</head>
-<body>
-  <div id="video-player"></div>
-  <script>
-    const player = jwplayer("video-player").setup({
-      playlist: [{
-        sources: [{
-          file: 'https://bpcdn.dialog.lk/bpk-tv/Ch120/out/index.mpd',
-          type: 'dash',
-          drm: {
-            widevine: {
-              url: 'license_proxy.php'
-            }
-          }
-        }]
-      }],
-      width: "640",
-      controls: true
-    });
+<?php
+$licenseServerUrl = 'https://api.viu.lk/drmproxy/bp/wv/license?lat=2I8mtqM5%2F6IdGKu2vcuU8oIiK33vDeizdF%2Bh9nOZ6ZD3F5PJot%2FvAQincDJ4YXelZIDpsx5ncx%2B3xfYO1WKt6kQ1Dnmi6UjMh6SAt84soRG6W34XD%2Fsfc0F6IKRjpDrl0GeiJwGHB4AEnv67uIWdWiqXC%2B9XTf%2FZ5FQrndcWU%2BRtmPGloGfGi8AFNFONtwfG9qamyWIP%2FK5L4gWvQTikTg20J6p26mVxO06%2FjVlCMnChQqXnf9qmvdIZZPbRzXzVSgwYXI%2FX%2FNPW8VTuImqkf09jUPJ6FhN0d1sPMMaBqLDEf7EEvtcA%2BvuiKxAwIv%2BEmVz1OifrROKatpkbb6Dlf7DLeHuzmlhMiycULa47BZQx55%2Fa2wa6ZUNd1eZSjdZ%2BtlSjkpRbP2BkD2AZkdACITlVvTRqp7cQctCpBYNks%2B0Va4QZuZ2MvRaPuiS%2BdNsgpKKVi8msJy0eZxD0%2B9rXMg%3D%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaWQiOjEzNjQ4ODksImR1aWQiOiJkNjdjNGNiMC01MTE4LTExZWYtOWE1OC0xMzRmNDVmYTA1Y2IiLCJleHAiOjE3MjI2NTE5MjEsImlhdCI6MTcyMjY1MDEyMSwiaXNzIjoidW5pcUNhc3QiLCJvaWQiOjEsIm91aWQiOiJkZWZhdWx0IiwicmlkIjoxLCJyb2xlIjpbInN1YnNjcmliZXIiXSwicnVpZCI6ImRlZmF1bHQiLCJzdWIiOiJhY2Nlc3MiLCJ1aWQiOjkzOTUxMCwidmVyc2lvbiI6Mn0.M1VFgtf8vs_bzYpfax_IfYn39KLMFOWxoaPLztZDz0E';
 
-    player.on('error', function(e) {
-      console.error('Error code', e.code, 'message', e.message);
-    });
-  </script>
-</body>
-</html>
+header('Content-Type: application/octet-stream');
+
+// Initialize a cURL session
+$ch = curl_init($licenseServerUrl);
+
+// Set the cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HEADER, false);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents('php://input'));
+
+// Execute the request
+$response = curl_exec($ch);
+
+// Check for errors
+if ($response === false) {
+    http_response_code(500);
+    echo 'Error: ' . curl_error($ch);
+} else {
+    echo $response;
+}
+
+// Close the cURL session
+curl_close($ch);
+?>
