@@ -10,29 +10,23 @@
   <div id="video-player"></div>
   <script>
     const player = jwplayer("video-player").setup({
-	"playlist": [
-		{
-			"sources": [
-				null,
-				{
-					"default": false,
-					"type": "mpd",
-					"file": "https://bpcdn.dialog.lk/bpk-tv/Ch007/out/index.mpd",
-					"drm": {
-						"widevine": {
-							"url": "https://api.viu.lk/drmproxy/bp/wv/license?lat=2I8mtqM5%2F6IdGKu2vcuU8oIiK33vDeizdF%2Bh9nOZ6ZCIKBHU2NfEj9OdaOLeXMexffZoIeVykuo52kzCTYk7z6M2PeJalEtqPJWQb5XTA3MKIr439ZcOthgk5lv%2FZXphBnJmJ4qg46sMdQcVOYFjC0a%2Faj%2F25iomFLgDAb7l6Eo77n7oR2XmD%2BmH%2FJsgKLCYWnOC1HtaIoBXvttP4VrwUO14Ni961%2Fmsm7Szj%2FRCvXh0VC1cIvWt%2BYS5NZo9mplq2ws9MoOlgWqV6jdD1tDSwOFcgQluJYrvU8bfvWbRkDpG6mWNN0I7mf5COxVlOMYb1LPqZmKSvV9CFS6LF%2F5PGa2lBh%2BMQqNRk7Y8Hfw9Umv8F%2FZSvMOZoQ7ukhtWNk9oNm6DLEfwciofXu%2BhA7TtfyhRxkyfGOJxXEKqhqfgz5KuNyrExGb3RQV34X6uIIpY5n3gQ5p8rB5Oar%2BKwE3ufA%3D%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaWQiOjEzNjQ4ODksImR1aWQiOiJkNjdjNGNiMC01MTE4LTExZWYtOWE1OC0xMzRmNDVmYTA1Y2IiLCJleHAiOjE3MjI2NTI0NzYsImlhdCI6MTcyMjY1MDY3NiwiaXNzIjoidW5pcUNhc3QiLCJvaWQiOjEsIm91aWQiOiJkZWZhdWx0IiwicmlkIjoxLCJyb2xlIjpbInN1YnNjcmliZXIiXSwicnVpZCI6ImRlZmF1bHQiLCJzdWIiOiJhY2Nlc3MiLCJ1aWQiOjkzOTUxMCwidmVyc2lvbiI6Mn0.wnjK04J1du2YyJgGQBtNPjT1k6wUv31iuvTiE9Ganbs"
-						},
-						"playready": {}
-					},
-					"label": "1"
-				}
-			]
-		}
-	],
-	"primary": "html5",
-	"hlshtml": true,
-	"autostart": false
-});
+      playlist: [{
+        sources: [{
+          file: 'https://bpcdn.dialog.lk/bpk-tv/Ch110/out/index.mpd',
+          type: 'dash',
+          drm: {
+            widevine: {
+              url: 'license_proxy.php',
+              headers: {
+                'Content-Type': 'application/octet-stream'
+              }
+            }
+          }
+        }]
+      }],
+      width: "640",
+      controls: true
+    });
 
     player.on('error', function(e) {
       console.error('Error code', e.code, 'message', e.message);
