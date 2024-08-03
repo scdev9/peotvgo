@@ -3,15 +3,19 @@ $licenseServerUrl = 'https://api.viu.lk/drmproxy/bp/wv/license?lat=2I8mtqM5%2F6I
 
 header('Content-Type: application/octet-stream');
 
+// Initialize a cURL session
 $ch = curl_init($licenseServerUrl);
 
+// Set the cURL options
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents('php://input'));
 
+// Execute the request
 $response = curl_exec($ch);
 
+// Check for errors
 if ($response === false) {
     http_response_code(500);
     echo 'Error: ' . curl_error($ch);
@@ -19,5 +23,6 @@ if ($response === false) {
     echo $response;
 }
 
+// Close the cURL session
 curl_close($ch);
 ?>
