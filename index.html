@@ -3,70 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Widevine Protected MPD Stream</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.2.1/shaka-player.compiled.js"></script>
+  <title>Widevine Protected MPD Stream with JW Player</title>
+  <script src="https://cdn.jwplayer.com/libraries/1uritdb6.js"></script>
 </head>
 <body>
-  <video id="video" width="640" controls></video>
+  <div id="video-player"></div>
   <script>
-    // Initialize the Shaka Player
-    function initApp() {
-      // Install built-in polyfills to patch browser incompatibilities.
-      shaka.polyfill.installAll();
-
-      // Check if the browser supports the necessary APIs
-      if (shaka.Player.isBrowserSupported()) {
-        // Everything looks good!
-        initPlayer();
-      } else {
-        // This browser does not have the necessary APIs to support Shaka Player
-        console.error('Browser not supported!');
-      }
-    }
-
-    // Set up the player
-    async function initPlayer() {
-      // Create a Player instance.
-      const video = document.getElementById('video');
-      const player = new shaka.Player(video);
-
-      // Attach player to the window to make it easy to access in the JS console.
-      window.player = player;
-
-      // Listen for error events.
-      player.addEventListener('error', onErrorEvent);
-
-      // Configure DRM settings
-      player.configure({
-        drm: {
-          servers: {
-            'com.widevine.alpha': 'https://scdev9.github.io/peotvgo/license_proxy.php'
+    const player = jwplayer("video-player").setup({
+      playlist: [{
+        sources: [{
+          file: 'https://bpcdn.dialog.lk/bpk-tv/Ch120/out/index.mpd',
+          type: 'dash',
+          drm: {
+            widevine: {
+              url: 'license_proxy.php'
+            }
           }
-        }
-      });
+        }]
+      }],
+      width: "640",
+      controls: true
+    });
 
-      // Try to load a manifest.
-      // This is an example URL, replace it with your own Widevine-protected MPD stream URL.
-      const manifestUri = 'https://bpcdn.dialog.lk/bpk-tv/Ch088/out/index.mpd';
-
-      try {
-        await player.load(manifestUri);
-        console.log('The video has now been loaded!');
-      } catch (error) {
-        onError(error);
-      }
-    }
-
-    // Handle error events.
-    function onErrorEvent(event) {
-      onError(event.detail);
-    }
-
-    function onError(error) {
-      console.error('Error code', error.code, 'object', error);
-    }
-
-    document.addEventListener('DOMContentLoaded', initApp);
+    player.on('error', function(e) {
+      console.error('Error code', e.code, 'message', e.message);
+    });
   </script>
 </body>
 </html>
